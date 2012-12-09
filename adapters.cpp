@@ -1,4 +1,4 @@
-#include "WProgram.h"
+#include "Arduino.h"
 #include "sm130.h"
 
 uint8_t sm130_checksum(uint8_t *data, int len) {
